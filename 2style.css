@@ -248,8 +248,28 @@ nav{
     width: 528px;
     height: 581px;
     background-color: var(--thirdly-text-color);
+    padding: 40px;
 }
+.modal-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+    width: 30px;
+    height: 30px;
+
+    padding: 0;
+
+    border: 1px solid var(--svg);
+    border-radius: 50%;
+    background-image: url(./symbol-defs.svg#close);
+    background-size: contain;
+    background-color: var(--thirdly-text-color);
+}    
 
 .modal-title{
     font-weight: 700;
@@ -349,6 +369,7 @@ font-size: 14px;
 line-height: 16px;
 text-align: center;
 letter-spacing: 0.03em;
+padding: 20px;
 }
 .section.our-team{
     background-color: #f5f4fa;
@@ -495,6 +516,12 @@ address{
     margin-left: 0;
     margin-top: 9px;
 }
+.footer .container{
+    display: flex;
+    align-items: baseline;
+    
+    
+}
 /* приеднуйтесь */
 .join-networks {
     color: var(--thirdly-text-color);
@@ -507,19 +534,14 @@ address{
     
     
   }
+
   
   /* .footer .networks {
     
 
   } */
   .join{
-   
-    
-   position: absolute;
-    width: 116px;
-    height: 16px;
-    left: 516px;
-    top: 2749px;
+        margin-left: 70px;
 
   }
   
@@ -556,6 +578,7 @@ ul{
 }
 
 /* portfolio */
+
  .portfolio-button{    
         font-style: normal;
         font-weight: 500;
@@ -644,7 +667,7 @@ ul{
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
 
-
+    
     
     .overlay-text{
         font-size: 18px;
