@@ -69,35 +69,44 @@
                         <h2 class="modal-title">Залиште свої дані, ми вам зателефонуємо</h2>
                         <ul class="fields">
                             <li class="field-item">
-                                <label  class="modal-input" for="name">Ім'я</label>
-                                <input class="modal-input" type="text" name="" id="name" placeholder="Андрій Мельник">
-                                <svg widyh="12" height="12" class="modal-icon">
+                                <label  for="name">Ім'я</label>
+                                <input  type="text" name="" id="name" placeholder="Ваше Ім'я">
+                                <svg  width="12" height="12" class="modal-icon">
                                     <use href="./symbol-defs.svg#icon-name"></use>
                                 </svg>
                             </li>
                             <li class="field-item">
-                                <label  class="modal-input" for="name">Телефон</label>
-                                <input class="modal-input" type="text" name="" id="name" placeholder="+38098...">
-                                <svg widyh="12" height="12" class="modal-icon">
+                                <label   for="name">Телефон</label>
+                                <input  type="text" name="" id="name" placeholder="+38098...">
+                                <svg width="12" height="12" class="modal-icon">
                                     <use href="./symbol-defs.svg#icon-number"></use>
                                 </svg>
                             </li>
                             <li class="field-item">
                                 <label  class="modal-input" for="name">Пошта</label>
                                 <input class="modal-input" type="text" name="" id="name" placeholder="mail@gmail">
-                                <svg widyh="12" height="12" class="modal-icon">
+                                <svg width="12" height="12" class="modal-icon">
                                     <use href="./symbol-defs.svg#icon-email"></use>
                                 </svg>
                             </li>
                             <li class="field-item">
                                 <label for="comment">Коментарї</label>
-                                <textarea  name="comment" id="comment" placeholder="введіть свій коментар"> </textarea>
+                                <textarea  name="comment" id="comment" placeholder="Коментарі"> </textarea>
                             </li>
                         </ul>
-                        
-                            <input class="modal-link" type="checkbox">
-                            Погоджуюсь з розсилкою і приймаю Умови договору
-                            <a class="checkbox-link" href="">Умови договору</a>
+                            <div class="checkbox">
+
+                                <label>
+                                    <input class="modal-link" type="checkbox">
+                                    <svg class="checkbox-icon" width="16" height="16">
+                                        <use href="./symbol-defs.svg#icon-check"></use>
+                                    </svg>
+                                    Погоджуюсь з розсилкою і приймаю Умови договору
+                                    <a class="checkbox-link" href="">Умови договору</a>
+                                </label>
+                                
+                            </div>
+                            <button type="button" class="hero-button">Надіслати</button>
                        
                         
                         
@@ -106,6 +115,7 @@
                         <textarea  name="comment" cols="30" rows="30" id="comment"> -->
 
                     </form>
+
                 </div>
             </div> 
            </div>
