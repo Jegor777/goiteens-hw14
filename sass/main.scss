@@ -1,3 +1,4 @@
+
 /* .container{
     margin-right: auto;
     margin-left: auto;
@@ -13,20 +14,14 @@
     border-radius: 50%;
     /* transform: scale(100%);
     opacity: 1;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    
    
   
-:root{
-    --accent-color:#2196F3;
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;
-    --thirdly-text-color: #FFFFFF;
-    --background-color: #2F303A;
-    --svg: rgba(175, 177, 184, 1)
-    --card-border-line: #EEEEEE;
-}
+
 
 /* Загальні стилі */
+@import "./variables/variables";
+
 body{
     font-family: "Roboto", sans-serif;
     color: var(--primary-text-color);
@@ -114,6 +109,7 @@ nav{
 /* .nav-item:first-child{
     margin-left: 0;
 } */
+
 .nav-link,
 .contact-link{
     font-style: normal;
@@ -168,7 +164,7 @@ nav{
     background-image: linear-gradient(
         0deg, rgba(47, 48, 58, 0.4), 
         rgba(47, 48, 58, 0.4)),
-        url(./images/bgi.jpg);
+        url(/images/bgi.jpg);
     background-position: center;
     background-repeat: no-repeat;
 
