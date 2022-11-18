@@ -57,7 +57,7 @@
             <h1 class="hero-title"> ефективні рішення для вашого бізнесу</h1>
             <button class="hero-button" type="button" data-modal-open>Замовити послугу</button>
             <!-- бекдроп -->
-            <div class="backdrop " data-modal>
+            <div class="backdrop is-hidden" data-modal>
                 
                 <div class="modal">
                     <button type="button" class="modal-button" data-modal-close>
@@ -435,14 +435,20 @@
                     </li>
                             </ul>
             </div>
-            <div>               
+            <div  class="send">               
                 <b class="footertext">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</b>
-                    <input  class="footer-input" type="mail" name="mail" id="mail" placeholder="E-mail">
-                <button class="footer-button">Підписатись
-                     <!-- <svg width="24" height="24" class="send-icon">
-                    <use href="./images/symbol-defs.svg#send"></use>
-                    </svg> -->
-                </button>
+                <form class="send-form">
+                    <label >
+                        <input  class="send-input" type="mail" name="mail" id="mail" placeholder="E-mail">
+                    </label>
+                    <button class="footer-button">Підписатись
+                        <svg width="24" height="24" class="send-icon">
+                       <use href="./symbol-defs.svg#send"></use>
+                       </svg> 
+                   </button>
+                </form>
+                   
+                
                 
             </div>
         </div>
