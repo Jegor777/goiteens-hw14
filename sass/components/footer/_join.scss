@@ -1,0 +1,45 @@
+.join-networks {
+    color: var(--thirdly-text-color);
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+  }
+
+  
+  /* .footer .networks {
+    
+
+  } */
+  .join{
+        margin-left: 70px;
+        .icon-link {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: var(--thirdly-text-color);
+           
+            &:hover,
+            &:focus{
+    background-color: var(--accent-color);
+  }
+        
+            
+          }
+          .icon-team:not(:last-child){
+            margin-left: 0;
+            margin-right: 9px;
+          }
+          
+          .contact-icon {
+            fill: currentColor;
+          }
+  }
+    
+  
+  
+
+  
+  

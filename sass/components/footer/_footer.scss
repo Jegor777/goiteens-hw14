@@ -1,0 +1,50 @@
+.footer{
+    @extend .section;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--background-color);
+}
+
+
+.footer{
+    .container{
+        display: flex;
+        align-items: baseline;
+        
+        
+    }
+    .logo{
+        color: var(--thirdly-text-color);
+    }
+    .contacts-list{
+        display: block;
+    
+    }
+    .contact-link{
+        color: #AFB1B8;
+        &:hover,
+                    &:focus{
+    color: var(--accent-color);
+}
+    }
+    address{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: var(--thirdly-text-color);
+        
+        margin-top: 20px;
+    
+    }
+    .contact-item:last-child{
+        margin-left: 0;
+        margin-top: 9px;
+    }
+}
+
+
+
+
+
+
+ 
