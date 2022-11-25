@@ -68,6 +68,18 @@ img {
   height: auto;
 }
 
+body {
+  font-family: "Roboto", sans_serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -667,6 +679,10 @@ nav {
 
 .send {
   margin-left: 70px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .footertext {
@@ -693,6 +709,7 @@ nav {
   border: none;
   border-radius: 4px;
   padding: 10px 24px;
+  margin-top: 10px;
   cursor: pointer;
   -webkit-transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -708,17 +725,6 @@ nav {
   margin-left: 10px;
 }
 
-.send-form {
-  display: inline-block;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: absolute;
-  left: 750px;
-  top: 2800px;
-}
-
 .send-input {
   width: 300px;
   height: 50px;
@@ -726,34 +732,6 @@ nav {
   border-radius: 4px;
   outline: none;
   background-color: var(--background-color);
-}
-
-/* модальне  вікно */
-/* секція особливості */
-/* Секція дій */
-/* Постійні клієнти */
-/* Футер */
-/* приеднуйтесь */
-/* portfolio */
-body {
-  font-family: "Roboto", sans_serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-
-/* portfolio */
-.portfolio-button {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  background-color: whitesmoke;
 }
 
 .bold {
@@ -792,6 +770,12 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.portfolio-button:hover, .portfolio-button:focus {
+  background-color: var(--accent-color);
+  color: var(--thirdly-text-color);
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 .portfolio-button-list {
   -webkit-box-pack: center;
@@ -810,14 +794,6 @@ ul {
   border-left: 1px solid var(--card-border-line);
   border-right: 1px solid var(--card-border-line);
   border-bottom: 1px solid var(--card-border-line);
-}
-
-.portfolio-button:hover,
-.portfolio-button:focus {
-  background-color: var(--accent-color);
-  color: var(--thirdly-text-color);
-  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .thumb {
@@ -841,14 +817,11 @@ ul {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link:hover .overlay,
-.link:focus .overlay {
+.link:hover .overlay, .link:focus .overlay {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
-
-.link:hover .team-card-portfolio,
-.link:focus .team-card-portfolio {
+.link:hover .team-card-portfolio, .link:focus .team-card-portfolio {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -876,4 +849,12 @@ ul {
   margin-left: 30px; */
 }
 
+/* модальне  вікно */
+/* секція особливості */
+/* Секція дій */
+/* Постійні клієнти */
+/* Футер */
+/* приеднуйтесь */
+/* portfolio */
+/* portfolio */
 /* logo *//*# sourceMappingURL=main.css.map */

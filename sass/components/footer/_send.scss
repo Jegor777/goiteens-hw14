@@ -1,6 +1,9 @@
 .send{
     margin-left: 70px;
     
+    flex-direction: column;
+    
+
   }
   .footertext{
      color: var(--thirdly-text-color);
@@ -25,14 +28,16 @@
     border-radius: 4px;
 
     padding: 10px 24px;
-
+    margin-top: 10px;
     cursor: pointer;
     transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
     color: 250ms cubic-bezier(0.4, 0, 0.2, 1) 1000ms;
+    
     &:hover,
     &:focus{
     background-color:aqua;
-    color: #2F303A;
+    color: #2F303A; 
+    
 }
   }
     
@@ -40,16 +45,7 @@
     fill: #f5f4fa;
     margin-left: 10px;
 }
-.send-form{
-    display:inline-block;
-   flex-direction: column;
-   position: absolute;
-   left: 750px;
-   top: 2800px;
-   
-    
-   
-}
+
 .send-input{
     width: 300px;
     height: 50px;
